@@ -4330,6 +4330,7 @@ input, select, textarea {
   background: var(--color-bg-elevated);
   border: 1px solid var(--color-border-subtle);
   border-radius: 12px;
+  padding: 0.4rem;
 }
 
 .presentations-table {
@@ -4364,6 +4365,7 @@ input, select, textarea {
 .presentation-row {
   cursor: pointer;
   transition: background-color var(--transition-fast);
+  padding: 0.4rem;
 }
 
 .presentation-row:hover {
