@@ -1,14 +1,11 @@
 /*
  * Issues:
  *  1. Focus Mode Highlighting
- *    a. Does not highlight some elements (auth-input textboxes)
- *    b. Highlight is cut off for some elements (analytics-fire-recent-pill, result-header, presentation-title)
+ *    b. Highlight is cut off for some elements (analytics-fire-recent-pill,
+ *       presentation-title)
  *
  * Todo:
  *  1. Implement volume control shortcuts on player screen
- *  2. Implement search text shortcuts
- *    a. "/" for search
- *    b. "n" and "N" for navigating to next and prev search terms, respectively
  */
 
 "use client";
@@ -174,7 +171,7 @@ export default function KeyboardProvider({ children }: { children: React.ReactNo
         .grading-card.completed, 
         .transcript-word-new,
         .rubric-card,
-        .result-header,
+        .search-result-card,
         .grading-dash-card,
         .class-card,
         .class-dash-card,
