@@ -6849,7 +6849,6 @@ input, select, textarea {
   border-radius: var(--radius-md);
   font-size: 0.9375rem;
   color: var(--color-text-primary);
-  outline: none;
   transition:
     border-color var(--transition-fast),
     background var(--transition-fast),
@@ -6862,6 +6861,7 @@ input, select, textarea {
 }
 
 .auth-input:focus {
+  outline: none;
   border-color: var(--color-accent);
   background: var(--color-bg-tertiary);
   box-shadow: 0 0 0 3px var(--color-accent-glow);
